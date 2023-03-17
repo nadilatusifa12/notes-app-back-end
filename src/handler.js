@@ -2,6 +2,7 @@
 const { nanoid } = require('nanoid');
 const notes = require('./notes');
 
+// ini fungsi handler
 const addNoteHandler = (request, h) => {
   const { title, tags, body } = request.payload;
   const id = nanoid(16);
