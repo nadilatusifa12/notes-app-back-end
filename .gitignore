@@ -1,2 +1,4 @@
 node_modules
 notes-api-werbserver.pem 
+.env
+.prod.env
